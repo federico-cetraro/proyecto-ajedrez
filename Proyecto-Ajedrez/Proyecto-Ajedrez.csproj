@@ -44,7 +44,10 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="tablero\Color.cs" />
+    <Compile Include="tablero\Pieza.cs" />
     <Compile Include="tablero\Posicion.cs" />
+    <Compile Include="tablero\Tablero.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
