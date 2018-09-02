@@ -10,6 +10,9 @@ namespace Proyecto_Ajedrez
     {
         static void Main(string[] args)
         {
+
+
+
         }
     }
 }
