@@ -12,5 +12,10 @@
             this.columnas = columnas;
             piezas = new Pieza[lineas, columnas];
         }
+
+        public Pieza pieza(int linea, int columna)
+        {
+            return piezas[linea, columna];
+        }
     }
 }

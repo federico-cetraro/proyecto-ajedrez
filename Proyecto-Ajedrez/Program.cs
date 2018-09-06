@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using tablero;
 
 namespace Proyecto_Ajedrez
 {
@@ -11,7 +8,11 @@ namespace Proyecto_Ajedrez
         static void Main(string[] args)
         {
 
+            Tablero tab = new Tablero(8, 8);
 
+            Pantalla.mostrarTablero(tab);
+
+            Console.ReadLine();
 
         }
     }
