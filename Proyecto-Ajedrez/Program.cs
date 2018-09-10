@@ -11,13 +11,19 @@ namespace Proyecto_Ajedrez
 
             Tablero tab = new Tablero(8, 8);
 
-            tab.colocarPiezas(new Rey(Color.Negro, tab), new Posicion(1, 2));
-            tab.colocarPiezas(new Torre(Color.Negro, tab), new Posicion(1, 5));
-            tab.colocarPiezas(new Torre(Color.Blanco, tab), new Posicion(3, 2));
-            tab.colocarPiezas(new Rey(Color.Blanco, tab), new Posicion(3, 1));
+            try
+            {
+                tab.colocarPiezas(new Rey(Color.Negro, tab), new Posicion(1, 1));
+                tab.colocarPiezas(new Torre(Color.Negro, tab), new Posicion(1, 5));
+                tab.colocarPiezas(new Torre(Color.Blanco, tab), new Posicion(3, 2));
+                tab.colocarPiezas(new Rey(Color.Blanco, tab), new Posicion(3, 3));
 
-            Pantalla.mostrarTablero(tab);
-
+                Pantalla.mostrarTablero(tab);
+            }
+            catch(ExcepcionTablero e)
+            {
+                Console.WriteLine(e.Message);
+            }
             Console.ReadLine();
 
         }

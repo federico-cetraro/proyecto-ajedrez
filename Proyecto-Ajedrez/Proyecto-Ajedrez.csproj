@@ -45,9 +45,11 @@
     <Compile Include="Pantalla.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="tablero\ajedrez\PosicionAjedrez.cs" />
     <Compile Include="tablero\ajedrez\Rey.cs" />
     <Compile Include="tablero\ajedrez\Torre.cs" />
     <Compile Include="tablero\Color.cs" />
+    <Compile Include="tablero\ExcepcionTablero.cs" />
     <Compile Include="tablero\Pieza.cs" />
     <Compile Include="tablero\Posicion.cs" />
     <Compile Include="tablero\Tablero.cs" />
