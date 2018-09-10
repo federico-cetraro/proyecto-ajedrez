@@ -17,5 +17,12 @@
         {
             return piezas[linea, columna];
         }
+
+        public void colocarPiezas(Pieza p, Posicion pos)
+        {
+            piezas[pos.linea, pos.columna] = p;
+            p.posicion = pos;
+        }
+
     }
 }

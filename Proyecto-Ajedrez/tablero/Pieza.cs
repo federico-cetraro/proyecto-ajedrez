@@ -7,9 +7,9 @@
         public int cantMovimientos { get; protected set; }
         public Tablero tab { get; protected set; }
 
-        public Pieza (Posicion posicion, Color color, Tablero tab)
+        public Pieza (Color color, Tablero tab)
         {
-            this.posicion = posicion;
+            this.posicion = null;
             this.color = color;
             this.tab = tab;
             this.cantMovimientos = 0;
